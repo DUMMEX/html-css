@@ -3,4 +3,4 @@
 
 Aprendendo a gerenciar repositórios!
 
-<a href="https://dummex.github.io/html-css/exercícios/ex001/index.html"></a> Executar exercício 01
+<a href="https://dummex.github.io/html-css/exercícios/ex001/index.html">Executar exercício 01</a> 
