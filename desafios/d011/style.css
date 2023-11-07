@@ -1,0 +1,23 @@
+body {
+    background-image: url('imagens/espaco.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: black;
+}
+
+#astronauta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+img {
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 400px;
+    margin-top: 125px;
+}
