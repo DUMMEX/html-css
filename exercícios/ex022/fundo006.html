@@ -3,20 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste de Imagens de Fundo</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
             height: 97vh;
-            background-color: black;
-            background-image: url(images/wallpaper002.jpg);
-            background-position: center center;
-            background-repeat: no-repeat;
+            /*background-color: black;
+                background-image: url(images/wallpaper002.jpg);
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-attachment: fixed;
+            */
+            /* Shorthand - background
+                color > image > position > repeat > [size] > attachment
+            */
+
+            background: black url(images/wallpaper002.jpg) center center no-repeat fixed;
             background-size: cover;
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 2px solid darkblue;
@@ -27,6 +35,15 @@
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam officia consequatur error, voluptatem repudiandae optio sit quae corporis accusantium possimus laborum voluptas molestias, nisi aspernatur est. Alias magnam harum porro?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque quod deserunt expedita! Officiis magnam doloribus quas, culpa voluptatem adipisci laboriosam molestiae maiores amet, iure, et quos hic. Natus, doloremque ex!</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero ratione aliquam incidunt placeat ipsa quam in corporis inventore blanditiis dignissimos voluptatibus magnam cumque dolore culpa pariatur illo aperiam, molestiae non!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam officia consequatur error, voluptatem repudiandae optio sit quae corporis accusantium possimus laborum voluptas molestias, nisi aspernatur est. Alias magnam harum porro?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque quod deserunt expedita! Officiis magnam doloribus quas, culpa voluptatem adipisci laboriosam molestiae maiores amet, iure, et quos hic. Natus, doloremque ex!</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero ratione aliquam incidunt placeat ipsa quam in corporis inventore blanditiis dignissimos voluptatibus magnam cumque dolore culpa pariatur illo aperiam, molestiae non!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam officia consequatur error, voluptatem repudiandae optio sit quae corporis accusantium possimus laborum voluptas molestias, nisi aspernatur est. Alias magnam harum porro?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque quod deserunt expedita! Officiis magnam doloribus quas, culpa voluptatem adipisci laboriosam molestiae maiores amet, iure, et quos hic. Natus, doloremque ex!</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero ratione aliquam incidunt placeat ipsa quam in corporis inventore blanditiis dignissimos voluptatibus magnam cumque dolore culpa pariatur illo aperiam, molestiae non!</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam officia consequatur error, voluptatem repudiandae optio sit quae corporis accusantium possimus laborum voluptas molestias, nisi aspernatur est. Alias magnam harum porro?</p>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque quod deserunt expedita! Officiis magnam doloribus quas, culpa voluptatem adipisci laboriosam molestiae maiores amet, iure, et quos hic. Natus, doloremque ex!</p>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero ratione aliquam incidunt placeat ipsa quam in corporis inventore blanditiis dignissimos voluptatibus magnam cumque dolore culpa pariatur illo aperiam, molestiae non!</p>
